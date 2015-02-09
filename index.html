@@ -1,151 +1,91 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <!-- Apologies if you're reading this plain html. Well structured markup
-        seems to be secondary to browser layout in the world of frontend
-        frameworks. -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Hugh Rawlinson | Experiencer of Things</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link href="http://fonts.googleapis.com/css?family=Caudex|Lato:300" rel="stylesheet" type="text/css">
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 11]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+---
+layout: default
+---
 
+<div class="jumbotron">
+    <img src="https://secure.gravatar.com/avatar/38101f29052c7a8d9f84a255b8d31c78?s=420" alt="" class="img-center">
+    <h1>I'm Hugh</h1>
+    <i class="fa fa-anchor"></i>
+    <p class="lead">I write code, think as best I can, and sometimes sleep</p>
+</div>
+<h2>About Me</h2>
+    <p>I am a web developer, and a student of Music Computing. I enjoy long walks in the park and frivolous convoluted website build systems. This dude currently abides in New Cross, London. I aspire to abide all over the world in my life time. Other aspirations include:</p>
+    <ul>
+        <li>Having my code executed in space</li>
+        <li>Solving the housing/food/population crises</li>
+        <li>Furthering the cause of rational, reasonable thought</li>
+        <li>Actually following through on one of my many commitments to maintain blogs I've started</li>
+    </ul>
+    <p>Music Computing involves a huge variety of different ways of applying computing to music. In particular, I focus on widespread interactive systems, DSP, and generative music. If I had kept to my promise of maintaining a blog of the projects I completed at university, I would be able to back that up. That said, I mainly just focus on code, rather than the actual music.</p>
+    <p>As for web development, I have been writing websites for quite some time. I have experience with websites written in PHP, Python, Java, C#, and Javascript, although I would rather forget more than one of those experiences. I am also an accomplished clientside scripter, who, while competent in several libraries that makes things easier, is most comfortable in vanilla Javascript.</p>
+    <p>Outside of academia and my professional life, I have from time to time enjoyed live music (both attending and performing), theatre, and spending time with friends. I've not made enough time for this recently, and in my final year my undergraduate program fully intend to make the most of the amount of spare time I am priveleged to have as a student.</p>
+    <p>I am trained in CPR, some first aid, and rescuing swimmers in distress, although I'm very rusty.</p>
+<hr>
+<h2>Links</h2>
+    <p>The following are links to relevant things.</p>
+<div class="row marketing">
+    <!-- Soon to be relevant tag <h3>Concerning Me</h3> -->
+    <div class="col-lg-6">
+        <h4>I've worked</h4>
+        <h5><a href="http://www.hughrawlinson.me/cv"><i class="fa fa-file-text-o"></i> Work History and Experience</a></h5>
+        <p>C.V. Curriculum Vitae. Resumé. Call it what you will. Yes, I typed those in for you <code>ctrl-f</code>ers</p>
+        <!-- This is currently offline. <h4><a href="http://millenniumfal.com/"><i class="fa fa-linux"></i> Millenium Fal.com</a></h4>
+        <p>A blog I write on occasionally.</p> -->
+        <h5><a href="https://uk.linkedin.com/in/hughrawlinson"><i class="fa fa-linkedin"></i> LinkedIn</a></h5>
+        <p>Fun not for you, eh? You'll love it over at LinkedIn.</p>
+        <hr>
+        <h4>Here's some of my actual work</h4>
+        <h5><a href="https://itunes.apple.com/gb/artist/hugh-rawlinson/id852304742"><i class="fa fa-apple"></i> iOS Developer page</a></h5>
+        <p>A friend and I have purchased an Apple iOS Developer License for this year, and as such, I'm attempting to make the best of it.</p>
+        <h5><a href="https://play.google.com/store/apps/developer?id=Code%20O%27Clock&hl=en"><i class="fa fa-android"></i> Google Play Developer page</a></h5>
+        <p>Sometimes I write Android apps, although this is very infrequent, and their releases are even more so.</p>
+        <hr>
+        <h4>Various code-related links</h4>
+        <h5><a href="https://stackoverflow.com/users/1361123/code-oclock"><i class="fa fa-stack-overflow"></i> Stack Overflow</a></h5>
+        <p>I mostly ask questions rather than answer them, and I would like to improve my ratio.</p>
+        <hr>
+        <h4>Publications</h4>
+        <p>I'm a published academic author and I'm not sure how long it'll take to get used to that fact...</p>
+        <a href="http://doc.gold.ac.uk/~mu202hr/publications.html"><i class="fa fa-book"></i> List here</a>
+    </div>
+    <div class="col-lg-6">
+        <h4>I've found these fun</h4>
+        <h5><a href="https://www.github.com/hughrawlinson"><i class="fa fa-github"></i> GitHub</a></h5>
+        <p>Find some source code I wrote over there. It's fun.</p>
+        <p class="gh-recent">Recently I've been working on <a id="repo-name"></a> - <span id="repo-desc"></span></p>
+        <h5><a href="https://www.hackerleague.org/users/hughrawlinson"><i class="fa fa-floppy-o"></i> Hacker League</a></h5>
+        <p>I made these fun things in less than 24 hours each.</p>
+        <h5><a href="http://hughrawlinson.me/live-coding/"><i class="fa fa-tumblr"></i> Live Coding</a></h5>
+        <p>A blog about my experience doing livecoding.</p>
+        <h5><a href="http://hughrawlinson.me/hacks/"><i class="fa fa-space-shuttle"></i> Fun little hacks</a></h5>
+        <p>Small hacks I make, mostly focused on music discovery.</p>
+        <hr>
+        <h4>Fun that is not code related</h4>
+        <h5><a href="https://twitter.com/hughrawlinson"><i class="fa fa-twitter"></i> Twitter</a></h5>
+        <p>Sometimes I chirp about fun things.</p>
+        <h5><a href="https://instagram.com/hughrawlinson"><i class="fa fa-instagram"></i> Instagram</a></h5>
+        <p>Sometimes I take pictures of things like train tracks, curtains and the sky.</p>
+        <h5><a href="https://soundcloud.com/hughrawlinson"><i class="fa fa-soundcloud"></i> Soundcloud</a></h5>
+        <p>I've made music in the past, and would like to make more some day.</p>
+        <hr>
+        <h4>Sometimes I write about university courses</h4>
+        <a href="http://physcomp.hughrawlinson.me/"><i class="fa fa-wrench"></i> Physical Computing</a>
+    </div>
+</div>
+<!-- <hr>
+<div class="row marketing">
+    <h3>Concerning Other People, and Things</h3>
+    <div class="col-lg-6">
+        <h4><a href="http://www.aaronsw.com/weblog/fullarchive"><i class="fa fa-rss"></i> Aaron Swartz</a></h4>
+        <p>The writings of the genius.</p>
+        <h4><a href="http://2600.net"><i class="fa fa-rss"></i> Aaron Swartz</a></h4>
+        <p>The writings of the genius.</p>
+    </div>
+    <div class="col-lg-6">
+        <h4><a href="http://www.jna.sh/"><i class="fa fa-mortar-board"></i> Joe Nash</a></h4>
+        <p>Haskeller Extraordinaire. Apparently Haskellers don't have time for pretty websites.</p>
 
-        <div class="container">
-            <div class="header">
-                <h3 class="text-muted pull-right">Experiencer of Things</h3>
-                <h3 class="text-muted">Hugh Rawlinson</h3>
-            </div>
-
-            <div class="jumbotron">
-                <img src="https://secure.gravatar.com/avatar/38101f29052c7a8d9f84a255b8d31c78?s=420" alt="" class="img-center">
-                <h1>I'm Hugh</h1>
-                <i class="fa fa-anchor"></i>
-                <p class="lead">I write code, think as best I can, and sometimes sleep</p>
-            </div>
-            <h2>About Me</h2>
-                <p>I am a web developer, and a student of Music Computing. I enjoy long walks in the park and frivolous convoluted website build systems. This dude currently abides in New Cross, London. I aspire to abide all over the world in my life time. Other aspirations include:</p>
-                <ul>
-                    <li>Having my code executed in space</li>
-                    <li>Solving the housing/food/population crises</li>
-                    <li>Furthering the cause of rational, reasonable thought</li>
-                    <li>Actually following through on one of my many commitments to maintain blogs I've started</li>
-                </ul>
-                <p>Music Computing involves a huge variety of different ways of applying computing to music. In particular, I focus on widespread interactive systems, DSP, and generative music. If I had kept to my promise of maintaining a blog of the projects I completed at university, I would be able to back that up. That said, I mainly just focus on code, rather than the actual music.</p>
-                <p>As for web development, I have been writing websites for quite some time. I have experience with websites written in PHP, Python, Java, C#, and Javascript, although I would rather forget more than one of those experiences. I am also an accomplished clientside scripter, who, while competent in several libraries that makes things easier, is most comfortable in vanilla Javascript.</p>
-                <p>Outside of academia and my professional life, I have from time to time enjoyed live music (both attending and performing), theatre, and spending time with friends. I've not made enough time for this recently, and in my final year my undergraduate program fully intend to make the most of the amount of spare time I am priveleged to have as a student.</p>
-                <p>I am trained in CPR, some first aid, and rescuing swimmers in distress, although I'm very rusty.</p>
-            <hr>
-            <h2>Links</h2>
-                <p>The following are links to relevant things.</p>
-            <div class="row marketing">
-                <!-- Soon to be relevant tag <h3>Concerning Me</h3> -->
-                <div class="col-lg-6">
-                    <h4>I've worked</h4>
-                    <h5><a href="http://www.hughrawlinson.me/cv"><i class="fa fa-file-text-o"></i> Work History and Experience</a></h5>
-                    <p>C.V. Curriculum Vitae. Resumé. Call it what you will. Yes, I typed those in for you <code>ctrl-f</code>ers</p>
-                    <!-- This is currently offline. <h4><a href="http://millenniumfal.com/"><i class="fa fa-linux"></i> Millenium Fal.com</a></h4>
-                    <p>A blog I write on occasionally.</p> -->
-                    <h5><a href="https://uk.linkedin.com/in/hughrawlinson"><i class="fa fa-linkedin"></i> LinkedIn</a></h5>
-                    <p>Fun not for you, eh? You'll love it over at LinkedIn.</p>
-                    <hr>
-                    <h4>Here's some of my actual work</h4>
-                    <h5><a href="https://itunes.apple.com/gb/artist/hugh-rawlinson/id852304742"><i class="fa fa-apple"></i> iOS Developer page</a></h5>
-                    <p>A friend and I have purchased an Apple iOS Developer License for this year, and as such, I'm attempting to make the best of it.</p>
-                    <h5><a href="https://play.google.com/store/apps/developer?id=Code%20O%27Clock&hl=en"><i class="fa fa-android"></i> Google Play Developer page</a></h5>
-                    <p>Sometimes I write Android apps, although this is very infrequent, and their releases are even more so.</p>
-                    <hr>
-                    <h4>Various code-related links</h4>
-                    <h5><a href="https://stackoverflow.com/users/1361123/code-oclock"><i class="fa fa-stack-overflow"></i> Stack Overflow</a></h5>
-                    <p>I mostly ask questions rather than answer them, and I would like to improve my ratio.</p>
-                    <hr>
-                    <h4>Publications</h4>
-                    <p>I'm a published academic author and I'm not sure how long it'll take to get used to that fact...</p>
-                    <a href="http://doc.gold.ac.uk/~mu202hr/publications.html"><i class="fa fa-book"></i> List here</a>
-                </div>
-                <div class="col-lg-6">
-                    <h4>I've found these fun</h4>
-                    <h5><a href="https://www.github.com/hughrawlinson"><i class="fa fa-github"></i> GitHub</a></h5>
-                    <p>Find some source code I wrote over there. It's fun.</p>
-                    <p class="gh-recent">Recently I've been working on <a id="repo-name"></a> - <span id="repo-desc"></span></p>
-                    <h5><a href="https://www.hackerleague.org/users/hughrawlinson"><i class="fa fa-floppy-o"></i> Hacker League</a></h5>
-                    <p>I made these fun things in less than 24 hours each.</p>
-                    <h5><a href="http://hughrawlinson.me/live-coding/"><i class="fa fa-tumblr"></i> Live Coding</a></h5>
-                    <p>A blog about my experience doing livecoding.</p>
-                    <h5><a href="http://hughrawlinson.me/hacks/"><i class="fa fa-space-shuttle"></i> Fun little hacks</a></h5>
-                    <p>Small hacks I make, mostly focused on music discovery.</p>
-                    <hr>
-                    <h4>Fun that is not code related</h4>
-                    <h5><a href="https://twitter.com/hughrawlinson"><i class="fa fa-twitter"></i> Twitter</a></h5>
-                    <p>Sometimes I chirp about fun things.</p>
-                    <h5><a href="https://instagram.com/hughrawlinson"><i class="fa fa-instagram"></i> Instagram</a></h5>
-                    <p>Sometimes I take pictures of things like train tracks, curtains and the sky.</p>
-                    <h5><a href="https://soundcloud.com/hughrawlinson"><i class="fa fa-soundcloud"></i> Soundcloud</a></h5>
-                    <p>I've made music in the past, and would like to make more some day.</p>
-                    <hr>
-                    <h4>Sometimes I write about university courses</h4>
-                    <a href="http://physcomp.hughrawlinson.me/"><i class="fa fa-wrench"></i> Physical Computing</a>
-                </div>
-            </div>
-            <!-- <hr>
-            <div class="row marketing">
-                <h3>Concerning Other People, and Things</h3>
-                <div class="col-lg-6">
-                    <h4><a href="http://www.aaronsw.com/weblog/fullarchive"><i class="fa fa-rss"></i> Aaron Swartz</a></h4>
-                    <p>The writings of the genius.</p>
-                    <h4><a href="http://2600.net"><i class="fa fa-rss"></i> Aaron Swartz</a></h4>
-                    <p>The writings of the genius.</p>
-                </div>
-                <div class="col-lg-6">
-                    <h4><a href="http://www.jna.sh/"><i class="fa fa-mortar-board"></i> Joe Nash</a></h4>
-                    <p>Haskeller Extraordinaire. Apparently Haskellers don't have time for pretty websites.</p>
-
-                    <h4><a href="http://hughrawlinson.me/live-coding/"><i class="fa fa-tumblr"></i> Live Coding</a></h4>
-                    <p>A blog about my experience doing livecoding.</p>
-                </div>
-            </div> -->
-
-            <div class="footer">
-                <p>Made with <i class="fa fa-heart" style="color:pink"></i> by <a href="http://github.com/hughrawlinson">Hugh Rawlinson</a></p>
-            </div>
-
-        </div>
-
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-
-        <!-- build:js scripts/main.js -->
-        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
-        <!-- endbuild -->
-</body>
-</html>
+        <h4><a href="http://hughrawlinson.me/live-coding/"><i class="fa fa-tumblr"></i> Live Coding</a></h4>
+        <p>A blog about my experience doing livecoding.</p>
+    </div>
+</div> -->

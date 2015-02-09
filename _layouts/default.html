@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    {% include head.html %}
+    
+    <body>
+        <!--[if lt IE 11]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            {% include header.html %}
+
+            {{ content }}
+            
+            {% include footer.html %}
+        </div>
+
+        <script src="//code.jquery.com/jquery-latest.min.js"></script>
+        <script src="/assets/scripts/main.js"></script>
+</body>
+</html>
