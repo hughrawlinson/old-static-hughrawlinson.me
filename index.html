@@ -1,59 +1,107 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hugh Rawlinson | Software Developer</title>
-    <meta name="description" content="Hugh Rawlinson | Software Developer">
-    <meta name="viewport" content="width=device-width">
-    <style>
-      body {
-        margin: 20px auto;
-        max-width:650px;
-        line-height:1.6;
-        font-size:18px;
-        color:#444;
-        padding:0 10px
-      }
-      h1,h2,h3 {
-        line-height:1.2
-      }
-      div::after {
-        display: block;
-        content: no-close-quote;
-        width: 100%;
-        border-top: 1px black solid;
-      }
-      img {
-        max-width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <img src="https://secure.gravatar.com/avatar/38101f29052c7a8d9f84a255b8d31c78?s=420" alt="An image of Hugh Rawlinson's face">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hugh Rawlinson | Software Developer</title>
+  <meta name="description" content="Hugh Rawlinson | Software Developer">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    html,
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .max-width-wrapper {
+      margin: 0 auto;
+      max-width: 650px;
+    }
+
+    header,
+    main {
+      padding: 50px;
+    }
+
+    header {
+      background-color: hsla(140.8, 95.5%, 73.9%, 0.29);
+    }
+
+    body {
+      line-height: 1.6;
+      font-size: 18px;
+      color: #444;
+      margin: 0px;
+    }
+
+    ol {
+      list-style: none;
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+      background-color: #EEE;
+      border-bottom: 5px solid #CCC;
+      margin-left: -15px;
+      padding: 15px;
+      width: -moz-fit-content;
+      width: fit-content;
+      filter: drop-shadow(5px 5px 2px #AAA);
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="max-width-wrapper">
+      <img src="https://secure.gravatar.com/avatar/38101f29052c7a8d9f84a255b8d31c78?s=420"
+        alt="An image of Hugh Rawlinson's face">
       <h1>Hugh Rawlinson</h1>
+      <p><em>Yes that is me and Carly Rae Jepsen in my profile picture, be jealous</em></p>
     </div>
-    <div>
+  </header>
+  <main>
+    <div class="max-width-wrapper">
       <h2>Professional</h2>
       <dl>
         <dt>Current Position and Employer</dt>
-        <dd>Senior Developer, Developer Advocate, Creative Technologist, Music Computerer available for hire</dd>
+        <dd>&#x1F440;</dd>
         <dt>Work History and Experience</dt>
-        <dd><a href="https://uk.linkedin.com/in/hughrawlinson">LinkedIn</a></dd>
+        <dd>
+          <ol>
+            <li>Senior Web Platform Developer at Spotify</li>
+            <li>Senior Developer Advocate at Spotify</li>
+            <li>Developer at Soundwave</li>
+            <li>Co-founder & Organizer at Hacksmiths</li>
+            <li>More on <a href="https://uk.linkedin.com/in/hughrawlinson">LinkedIn</a></li>
+          </ol>
+        </dd>
       </dl>
       <h2>Publications</h2>
       <ul>
-        <li><a href="http://wac.ircam.fr/pdf/wac15_submission_17.pdf">Meyda: an audio feature extraction library for the Web
-    Audio API</a>, Web Audio Conference, 2015</li>
+        <li><a href="http://wac.ircam.fr/pdf/wac15_submission_17.pdf">Meyda: an audio feature extraction library for the
+            Web
+            Audio API</a>, Web Audio Conference, 2015</li>
       </ul>
+      <p><a href="https://blog.hughrawlinson.me/">blog.hughrawlinson.me</a> is my blog, where I publish technical
+        articles once or twice a year.</p>
       <h2>Social</h2>
-      <p>I regularly use <a href="https://twitter.com/hughrawlinson">Twitter</a>. Please use it to get in touch with me.</p>
-      <p><a href="https://blog.hughrawlinson.me/">blog.hughrawlinson.me</a> points to a blog that I write occasionally.</p>
+      <p>I regularly use <a href="https://twitter.com/hughrawlinson">Twitter</a>. Please use it to get in touch with me.
+      </p>
       <p>My pgp public key is available <a href="https://keybase.io/hugh">on keybase</a>.</p>
       <h2>Free software</h2>
       <p>I publish free software on my <a href="https://www.github.com/hughrawlinson">GitHub</a> page.</p>
-      <p>I work on <a href="https://meyda.js.org">Meyda</a>, an open source audio feature extractor in Javascript. Recently I've been focusing on the documentation for the project.</p>
+      <p>I work on <a href="https://meyda.js.org">Meyda</a>, an open source audio feature extractor in Javascript.
+        Recently I've been focusing on the documentation for the project.</p>
     </div>
-  </body>
+  </main>
+</body>
+
 </html>
